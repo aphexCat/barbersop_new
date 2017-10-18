@@ -10,6 +10,7 @@ body {
     margin: 0 auto;
 }
 
+figure,
 ul,
 h1,
 h2,
@@ -34,6 +35,19 @@ a {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
+}
+/*btn*/
+.btn {
+  display:inline-block;
+  width: 140px;
+  height: 43px;
+  line-height: 43px;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  
 }
 
 
@@ -143,3 +157,73 @@ main {}
     line-height: 24px;
     font-weight: bold;
 }
+
+/*index-content*/
+.index-content {
+    display: flex;
+    padding: 50px 80px;
+    color: #000;
+    background: #fff url(../img/Layer%2010%20cop.jpg);
+}
+
+.index-content-left {
+    position: relative;
+    width: 330px;
+    margin-right: 150px;
+}
+
+.index-content-left::after {
+    position: absolute;
+    top: 20px;; 
+    left: 390px;
+    content: '';
+    display:block;
+    height: 278px;
+    width: 8px;
+    background: url(../img/index-line.png)no-repeat;
+}
+
+.index-content-right {
+    
+    width: 300px;
+}
+
+.index-content p  {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+   
+}
+
+.index-content a  {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.index-content-title {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+.news-preview > li {
+     margin-bottom: 30px;
+}
+
+.index-content time {
+    text-transform: none;
+}
+
+/*index-content gallery*/
+.gallery figure {
+    border: 7px solid #fff;
+    margin-bottom: 35px;
+}
+
+.gallery-prev{
+    margin-left: -2px;
+    margin-right: 18px;
+  
+}
+
