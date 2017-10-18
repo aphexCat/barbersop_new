@@ -38,18 +38,22 @@ a {
 }
 /*btn*/
 .btn {
-  display:inline-block;
   width: 140px;
-  height: 43px;
-  line-height: 43px;
+  height: 45px;
   background-color: #000;
   color: #fff;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
   text-transform: uppercase;
   text-align: center;
-  vertical-align: middle;
   
 }
-
+a.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
             /*----header----*/
 
@@ -227,3 +231,11 @@ main {}
   
 }
 
+.index-btn-block {
+    display: flex;
+    margin-top: 40px;
+}
+
+.index-btn-block a:first-child{
+    margin-right: 20px;
+}
