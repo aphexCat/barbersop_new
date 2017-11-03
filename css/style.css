@@ -68,32 +68,54 @@ a.btn {
 }
 
 .nav-main {
-    margin-right: 140px;
+    margin-right: 160px;
 }
 
 .nav-main > ul {
     display: flex;
     width: 640px;
     font-weight: bold;
-    line-height: 20px;
-    padding: 28px 0;
+    line-height: 20px;  
+    margin-left: -25px;
+}
+
+.nav-main > ul > li {
     
+}
+/*hover*/
+
+
+.nav-main > ul > li:hover {
+}
+
+.nav-main a {
+    display: block;
+    padding: 28px 25px;
+    
+   
+}
+
+.nav-main  a:hover {
+    background: #232323;
 }
 
 .nav-main > ul > li:not(:last-child) {
-    margin-right: 45px;
+    
 }
 
 .user-block {
-    width: 160px;
+    width: 130px;
     text-align: right;
     font-weight: bold;
     line-height: 20px;
     padding: 28px 0;
 }
 
+.user-block:hover {
+     background: #232323;
+}
 .login {
-    padding-right: 20px;
+    padding-right: 30px;
     
 }
 
